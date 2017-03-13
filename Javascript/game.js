@@ -14,7 +14,7 @@ var Circle = function(e){
 
   this.element = e;
   this.diameter = 22 + Math.random() * 50;
-  this.speed = 500 + (fase_temp*100) + Math.random() * 1500;
+  this.speed = 500 + ((fase_temp+1)*100) + Math.random() * 1500;
 
   this.element.css({
     width: this.diameter,
@@ -107,7 +107,9 @@ $(document).ready(function(){
     fase_fake = $.jStorage.get('fase');
   }
 
-  alert('Fase: '+(fase_fake+1));
+  if(fase_fake<6){
+    alert('Fase: '+(fase_fake+1));
+  }
 
   if(fase_fake==0){
 

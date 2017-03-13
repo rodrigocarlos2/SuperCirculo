@@ -94,6 +94,12 @@ Score.prototype.increase = function(){
 
       location.reload();
     }
+    else{
+      alert('Você concluiu, parabéns! Reiniciando o Jogo.');
+      $.jStorage.set("fase", 0);
+      fase_fake=0;
+      location.reload();
+    }
 
   }
 
@@ -109,9 +115,6 @@ $(document).ready(function(){
 
   if(fase_fake<6){
     alert('Fase: '+(fase_fake+1));
-  }
-  else{
-    alert('Parabéns! Você zerou o jogo.'); 
   }
 
   if(fase_fake==0){
@@ -303,7 +306,7 @@ $(document).ready(function(){
   }
 
   if(fase_fake>5){
-    //alert('Você concluiu, parabéns! Reiniciando o Jogo.');
+    alert('Você concluiu, parabéns! Reiniciando o Jogo.');
     $.jStorage.set("fase", 0);
     fase_fake=0;
     location.reload();

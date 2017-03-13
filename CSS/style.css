@@ -31,7 +31,9 @@ body{
 }
 
 p{
-  padding: 13px;
+  left: 0%;
+  position: relative;
+  font-size: 12.5px;
 }
 
 #rigth{

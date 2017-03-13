@@ -1,0 +1,118 @@
+
+body{
+
+  background-color: white;
+  
+}
+
+#info {
+
+  background-color: #938968;
+
+  left: 0%;
+  position: relative;
+
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+
+  display: -moz-box;
+  -moz-box-align: center;
+  -moz-box-pack: center;
+
+  display: -ms-box;
+  -ms-box-align: center;
+  -ms-box-pack: center;
+
+  display: -o-box;
+  -o-box-align: center;
+  -o-box-pack: center;
+}
+
+p{
+  padding: 13px;
+}
+
+#rigth{
+
+  position: relative;
+  float: 0%;
+
+  border: 1px solid black;
+
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+
+  display: -moz-box;
+  -moz-box-align: center;
+  -moz-box-pack: center;
+
+  display: -ms-box;
+  -ms-box-align: center;
+  -ms-box-pack: center;
+
+  display: -o-box;
+  -o-box-align: center;
+  -o-box-pack: center;
+}
+
+#size_p{
+  font-size: 11.5px;
+}
+
+#game{
+
+  background-color: white;
+  height: 355px;
+  width: 325px;
+  border: 2px solid #504C40;
+
+  left: 50%;
+  position: relative;
+
+  transform: translate(-50%);
+
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+
+  display: -moz-box;
+  -moz-box-align: center;
+  -moz-box-pack: center;
+
+  display: -ms-box;
+  -ms-box-align: center;
+  -ms-box-pack: center;
+
+  display: -o-box;
+  -o-box-align: center;
+  -o-box-pack: center;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: #938968;
+  position: absolute;
+
+  left: 0%;
+  cursor: pointer;
+
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+
+  display: -moz-box;
+  -moz-box-align: center;
+  -moz-box-pack: center;
+
+  display: -ms-box;
+  -ms-box-align: center;
+  -ms-box-pack: center;
+
+  display: -o-box;
+  -o-box-align: center;
+  -o-box-pack: center;
+}

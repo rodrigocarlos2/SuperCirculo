@@ -59,7 +59,8 @@ p{
 }
 
 #size_p{
-  font-size: 11.5px;
+  position: relative;
+  float: 0%;
 }
 
 #game{

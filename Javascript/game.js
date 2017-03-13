@@ -110,6 +110,9 @@ $(document).ready(function(){
   if(fase_fake<6){
     alert('Fase: '+(fase_fake+1));
   }
+  else{
+    alert('Parabéns! Você zerou o jogo.'); 
+  }
 
   if(fase_fake==0){
 

@@ -84,7 +84,7 @@ Score.prototype.increase = function(){
 
   if(score_fake==1000){
 
-    if(fase_fake<=5){
+    if(fase_fake<=4){
 
       alert('Próxima fase!');
       fase_fake++;
